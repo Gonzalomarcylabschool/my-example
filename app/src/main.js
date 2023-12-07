@@ -19,7 +19,6 @@ const handleAddSubmit = (e) => {
   addNewP(formObj.name, mainPage);
   if(!getNames()){
     setNames( [formObj.name] );
-    console.log(localStorage);
   } else {
     addName(formObj.name);
   }
