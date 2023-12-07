@@ -45,6 +45,7 @@ const handleRemoveAll = (e)=> {
   removeNamefromDOM(toBeRemoved);
   removeAllMatchingName(toBeRemoved);
   
+  e.target.reset();
 }
 
 const handleReset = (e) => {
